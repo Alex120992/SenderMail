@@ -1,16 +1,11 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: linux_alex
-  Date: 4/1/21
-  Time: 4:21 AM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<html lang="ru">
 <head>
     <title>Result</title>
+    <meta charset="UTF-8">
 </head>
 <body>
- ${personName}, Вам отправлено сообщение!
+<strong>${personData.name}</strong>, на Вашу почту <strong>${personData.mail}</strong> отправлено сообщение!
 </body>
 </html>
